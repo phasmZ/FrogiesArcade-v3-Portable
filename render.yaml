@@ -3,7 +3,7 @@ services:
   - type: web
     name: frogies-arcade-v3 
     runtime: node
-    repo: https://github.com/phasmZ/FrogiesArcade-v3-Portable/tree/main
+    repo: https://github.com/phasmZ/FrogiesArcade-v3-Portable.git
     plan: free
     buildCommand: npm install # Add this line
     startCommand: npm start   # Add this line
