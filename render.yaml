@@ -1,7 +1,9 @@
 # Corrected render.yaml
 services:
   - type: web
-    name: frogies-arcade-v3 # Give it a single, unique name
+    name: frogies-arcade-v3 
     runtime: node
     repo: https://github.com/FrogiesArcade/FrogiesArcade-v3-Portable
     plan: free
+    buildCommand: npm install # Add this line
+    startCommand: npm start   # Add this line
